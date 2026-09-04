@@ -1,0 +1,1085 @@
+{
+  "101": {
+    "txId": 101,
+    "transaction": {
+      "id": 101,
+      "date": "2026-08-01T09:15:00Z",
+      "amount": 15000,
+      "vendor": "AWS Cloud Services",
+      "category": "Software Subscription",
+      "paymentMode": "Card",
+      "description": "Monthly cloud infrastructure hosting"
+    },
+    "riskScore": "Low",
+    "flagType": "Normal",
+    "reasoning": "The payment of ₹15,000 to AWS Cloud Services aligns with standard operating expenses for Software Subscription. No policy violations or anomalous patterns detected.",
+    "vendorTrustScore": 100,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0x4d516c49aa6dd19d97a47f5b2b4770e776bbd63b09b0139335efb93b15c7ed17",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0x4d516c49aa6dd19d97a47f5b2b4770e776bbd63b09b0139335efb93b15c7ed17",
+      "reasoningHash": "0xd28ab2a885b49ab1a55d7833945765b55a5a7ddc94343d227b60e532ff6f0e1d"
+    },
+    "approvalStatus": "Approved",
+    "requiredApprovals": 0,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.591Z"
+  },
+  "102": {
+    "txId": 102,
+    "transaction": {
+      "id": 102,
+      "date": "2026-08-02T11:30:00Z",
+      "amount": 4200,
+      "vendor": "Slack Technologies",
+      "category": "Software Subscription",
+      "paymentMode": "Card",
+      "description": "Team chat workspace subscription"
+    },
+    "riskScore": "Medium",
+    "flagType": "Timing-Anomaly",
+    "reasoning": "This transaction was recorded at off-hours (2026-08-02T11:30:00Z). While it may represent automated billing, off-hours disbursements outside normal business operations warrant secondary review.",
+    "vendorTrustScore": 95,
+    "preFlag": true,
+    "preFlagReason": "Transaction timestamp flag: processed on a Sunday.",
+    "onChain": {
+      "txHash": "0xd3dcb07d67dd9deef3c37065669ebdb153af5c48aa171cde33a06537e7920971",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0xd3dcb07d67dd9deef3c37065669ebdb153af5c48aa171cde33a06537e7920971",
+      "reasoningHash": "0x4f7ef095d6c404f397589cb1cee2bc515a53e4398346c47fb3e1500f64d43074"
+    },
+    "approvalStatus": "Pending",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.605Z"
+  },
+  "103": {
+    "txId": 103,
+    "transaction": {
+      "id": 103,
+      "date": "2026-08-03T14:20:00Z",
+      "amount": 125000,
+      "vendor": "Razorpay Payroll",
+      "category": "Payroll",
+      "paymentMode": "Bank Transfer",
+      "description": "Monthly engineering team salaries"
+    },
+    "riskScore": "Low",
+    "flagType": "Normal",
+    "reasoning": "The payment of ₹1,25,000 to Razorpay Payroll aligns with standard operating expenses for Payroll. No policy violations or anomalous patterns detected.",
+    "vendorTrustScore": 100,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0xbde98b6b698d9e0b43a36702a2fee3bb463a2b7f4d0eadab344114570af9c412",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0xbde98b6b698d9e0b43a36702a2fee3bb463a2b7f4d0eadab344114570af9c412",
+      "reasoningHash": "0x144aa9b782ae26569a5ca6eadf62ead0025941653f5018bf0f3bb14b029f5471"
+    },
+    "approvalStatus": "Approved",
+    "requiredApprovals": 0,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.619Z"
+  },
+  "104": {
+    "txId": 104,
+    "transaction": {
+      "id": 104,
+      "date": "2026-08-05T16:45:00Z",
+      "amount": 18500,
+      "vendor": "WeWork Office Space",
+      "category": "Vendor Payment",
+      "paymentMode": "Bank Transfer",
+      "description": "Desk membership fee for August"
+    },
+    "riskScore": "Low",
+    "flagType": "Normal",
+    "reasoning": "The payment of ₹18,500 to WeWork Office Space aligns with standard operating expenses for Vendor Payment. No policy violations or anomalous patterns detected.",
+    "vendorTrustScore": 100,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0x67fc0f8e297e49f87d560b3d0b80d2ffcb9b713bcb44142ee22b80046dd3f8ac",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0x67fc0f8e297e49f87d560b3d0b80d2ffcb9b713bcb44142ee22b80046dd3f8ac",
+      "reasoningHash": "0x271b80399795edac30a5f8207c3c55ef261d7ae6c34ea9648223de0ad0a1e21d"
+    },
+    "approvalStatus": "Approved",
+    "requiredApprovals": 0,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.632Z"
+  },
+  "105": {
+    "txId": 105,
+    "transaction": {
+      "id": 105,
+      "date": "2026-08-06T10:00:00Z",
+      "amount": 24500,
+      "vendor": "Nova Traders",
+      "category": "Vendor Payment",
+      "paymentMode": "Bank Transfer",
+      "description": "Bulk office furniture order"
+    },
+    "riskScore": "High",
+    "flagType": "Duplicate",
+    "reasoning": "Identical payment of ₹24,500 to Nova Traders was submitted within 48 hours. This indicates potential duplicate billing or a double payment error that requires verification before release.",
+    "vendorTrustScore": 85,
+    "preFlag": true,
+    "preFlagReason": "Potential duplicate payment of ₹24,500 to Nova Traders within 48 hours (matches Tx #106).",
+    "onChain": {
+      "txHash": "0x1faf8b36307abfe962f07dc33a5abff6ecbd511231c993d208a451b206fce881",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0x1faf8b36307abfe962f07dc33a5abff6ecbd511231c993d208a451b206fce881",
+      "reasoningHash": "0xa0f558f45d352e0c1c0ffd47d21d2bda64734aa6f880a6db71af7fe687113645"
+    },
+    "approvalStatus": "Pending",
+    "requiredApprovals": 2,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.645Z"
+  },
+  "106": {
+    "txId": 106,
+    "transaction": {
+      "id": 106,
+      "date": "2026-08-07T09:30:00Z",
+      "amount": 24500,
+      "vendor": "Nova Traders",
+      "category": "Vendor Payment",
+      "paymentMode": "Bank Transfer",
+      "description": "Office furniture invoice payment"
+    },
+    "riskScore": "High",
+    "flagType": "Duplicate",
+    "reasoning": "Identical payment of ₹24,500 to Nova Traders was submitted within 48 hours. This indicates potential duplicate billing or a double payment error that requires verification before release.",
+    "vendorTrustScore": 70,
+    "preFlag": true,
+    "preFlagReason": "Potential duplicate payment of ₹24,500 to Nova Traders within 48 hours (matches Tx #105).",
+    "onChain": {
+      "txHash": "0xf2ce4fcdfa8aa5b512648008a1bd5aea261fdb5a233e1f5732e7c22cb9a1aaec",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0xf2ce4fcdfa8aa5b512648008a1bd5aea261fdb5a233e1f5732e7c22cb9a1aaec",
+      "reasoningHash": "0xa0f558f45d352e0c1c0ffd47d21d2bda64734aa6f880a6db71af7fe687113645"
+    },
+    "approvalStatus": "Pending",
+    "requiredApprovals": 2,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.667Z"
+  },
+  "107": {
+    "txId": 107,
+    "transaction": {
+      "id": 107,
+      "date": "2026-08-08T12:10:00Z",
+      "amount": 3200,
+      "vendor": "Uber for Business",
+      "category": "Travel",
+      "paymentMode": "Card",
+      "description": "Client meeting travel reimbursement"
+    },
+    "riskScore": "Low",
+    "flagType": "Normal",
+    "reasoning": "The payment of ₹3,200 to Uber for Business aligns with standard operating expenses for Travel. No policy violations or anomalous patterns detected.",
+    "vendorTrustScore": 100,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0xa674a59ebf1b5856ad660b4ab25feacac13ca3a8eb3dd57bdaa6ba8de9b73f55",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0xa674a59ebf1b5856ad660b4ab25feacac13ca3a8eb3dd57bdaa6ba8de9b73f55",
+      "reasoningHash": "0x9b0deb6d805697a4cf200c646d081f58460d670ac71f4890ea291e3b8fcfb87d"
+    },
+    "approvalStatus": "Approved",
+    "requiredApprovals": 0,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.682Z"
+  },
+  "108": {
+    "txId": 108,
+    "transaction": {
+      "id": 108,
+      "date": "2026-08-09T15:00:00Z",
+      "amount": 8500,
+      "vendor": "Google Workspace",
+      "category": "Software Subscription",
+      "paymentMode": "Card",
+      "description": "Enterprise email and drive subscription"
+    },
+    "riskScore": "Medium",
+    "flagType": "Timing-Anomaly",
+    "reasoning": "This transaction was recorded at off-hours (2026-08-09T15:00:00Z). While it may represent automated billing, off-hours disbursements outside normal business operations warrant secondary review.",
+    "vendorTrustScore": 95,
+    "preFlag": true,
+    "preFlagReason": "Transaction timestamp flag: processed on a Sunday.",
+    "onChain": {
+      "txHash": "0x40435fd2a22ede8792397e0eb8b7b697daa3321e2844401f71cf73660747f1bb",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0x40435fd2a22ede8792397e0eb8b7b697daa3321e2844401f71cf73660747f1bb",
+      "reasoningHash": "0x5d7b90d250f8dc2cfc06c3cd574216fa62c408c0475c67255513edf5617039a3"
+    },
+    "approvalStatus": "Pending",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.695Z"
+  },
+  "109": {
+    "txId": 109,
+    "transaction": {
+      "id": 109,
+      "date": "2026-08-10T11:15:00Z",
+      "amount": 45000,
+      "vendor": "DevStudio Labs",
+      "category": "Vendor Payment",
+      "paymentMode": "Bank Transfer",
+      "description": "UI/UX design milestone payment"
+    },
+    "riskScore": "Low",
+    "flagType": "Normal",
+    "reasoning": "The payment of ₹45,000 to DevStudio Labs aligns with standard operating expenses for Vendor Payment. No policy violations or anomalous patterns detected.",
+    "vendorTrustScore": 100,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0xff3ab989d35eb3984bb1807629b95f173d57812579a3999803ae05117141a0eb",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0xff3ab989d35eb3984bb1807629b95f173d57812579a3999803ae05117141a0eb",
+      "reasoningHash": "0x4f836113bdadf4730d26671a94b95fcf38c31c2311af9b4c857d075934aa4c1d"
+    },
+    "approvalStatus": "Approved",
+    "requiredApprovals": 0,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.709Z"
+  },
+  "110": {
+    "txId": 110,
+    "transaction": {
+      "id": 110,
+      "date": "2026-08-11T17:30:00Z",
+      "amount": 1500,
+      "vendor": "Swiggy Corporate",
+      "category": "Miscellaneous",
+      "paymentMode": "UPI",
+      "description": "Team lunch catering"
+    },
+    "riskScore": "Low",
+    "flagType": "Normal",
+    "reasoning": "The payment of ₹1,500 to Swiggy Corporate aligns with standard operating expenses for Miscellaneous. No policy violations or anomalous patterns detected.",
+    "vendorTrustScore": 100,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0x03ed88cd0803be97749201a92ecffb2c56b7824cf45f3c4e4fecf6e0cd8d3d2b",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0x03ed88cd0803be97749201a92ecffb2c56b7824cf45f3c4e4fecf6e0cd8d3d2b",
+      "reasoningHash": "0x3ad4f68cd8882da1e872bc89146334a314dab3528549f13e965b482324f360a6"
+    },
+    "approvalStatus": "Approved",
+    "requiredApprovals": 0,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.722Z"
+  },
+  "111": {
+    "txId": 111,
+    "transaction": {
+      "id": 111,
+      "date": "2026-08-12T10:05:00Z",
+      "amount": 28000,
+      "vendor": "MakeMyTrip Business",
+      "category": "Travel",
+      "paymentMode": "Card",
+      "description": "Flight tickets for tech conference"
+    },
+    "riskScore": "Low",
+    "flagType": "Normal",
+    "reasoning": "The payment of ₹28,000 to MakeMyTrip Business aligns with standard operating expenses for Travel. No policy violations or anomalous patterns detected.",
+    "vendorTrustScore": 100,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0x00d5f2257e97fc2c0078a90a9694d8e8936e36339c8be6aafa6f2ca9ab6ff8a9",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0x00d5f2257e97fc2c0078a90a9694d8e8936e36339c8be6aafa6f2ca9ab6ff8a9",
+      "reasoningHash": "0xf29ec5a57d0cdb3eb78690350258e6455e2e0827f6348c3d760d6839e1623eaf"
+    },
+    "approvalStatus": "Approved",
+    "requiredApprovals": 0,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.735Z"
+  },
+  "112": {
+    "txId": 112,
+    "transaction": {
+      "id": 112,
+      "date": "2026-08-13T14:40:00Z",
+      "amount": 48500,
+      "vendor": "Vanguard Supplies",
+      "category": "Vendor Payment",
+      "paymentMode": "Bank Transfer",
+      "description": "Office hardware equipment purchase"
+    },
+    "riskScore": "High",
+    "flagType": "Threshold-Evasion",
+    "reasoning": "The payment amount of ₹48,500 is strategically structured just below the ₹50,000 formal approval limit. This pattern frequently indicates threshold evasion to bypass executive sign-off.",
+    "vendorTrustScore": 85,
+    "preFlag": true,
+    "preFlagReason": "Amount ₹48,500 is within 5% below the ₹50,000 manager approval threshold.",
+    "onChain": {
+      "txHash": "0xb036b74910a888a21d23e9ad8ff24f55ba0b9e4a12532eb94689bb9364f49e8c",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0xb036b74910a888a21d23e9ad8ff24f55ba0b9e4a12532eb94689bb9364f49e8c",
+      "reasoningHash": "0xde20cb941af31d8aa168f5f9c4ed4fc78998854551ef12e2042738e799d6c2d1"
+    },
+    "approvalStatus": "Pending",
+    "requiredApprovals": 2,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.747Z"
+  },
+  "113": {
+    "txId": 113,
+    "transaction": {
+      "id": 113,
+      "date": "2026-08-14T09:50:00Z",
+      "amount": 6000,
+      "vendor": "Figma Inc",
+      "category": "Software Subscription",
+      "paymentMode": "Card",
+      "description": "Annual design license fee"
+    },
+    "riskScore": "Low",
+    "flagType": "Normal",
+    "reasoning": "The payment of ₹6,000 to Figma Inc aligns with standard operating expenses for Software Subscription. No policy violations or anomalous patterns detected.",
+    "vendorTrustScore": 100,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0x37369a71b7a4b4f395bbab7783548543886a2ee66f627f1614b5950332006347",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0x37369a71b7a4b4f395bbab7783548543886a2ee66f627f1614b5950332006347",
+      "reasoningHash": "0xc51c293b371e9e60ebc4ade9ab97c171bcaa249286d427fe16acb6e32a83db3a"
+    },
+    "approvalStatus": "Approved",
+    "requiredApprovals": 0,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.760Z"
+  },
+  "114": {
+    "txId": 114,
+    "transaction": {
+      "id": 114,
+      "date": "2026-08-15T13:25:00Z",
+      "amount": 3500,
+      "vendor": "GitHub",
+      "category": "Software Subscription",
+      "paymentMode": "Card",
+      "description": "Organization team plan"
+    },
+    "riskScore": "Low",
+    "flagType": "Normal",
+    "reasoning": "The payment of ₹3,500 to GitHub aligns with standard operating expenses for Software Subscription. No policy violations or anomalous patterns detected.",
+    "vendorTrustScore": 100,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0xc2e37f733138b8c7121722e6a456c704dc4c5f928b28685de0d9fc475bc1f030",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0xc2e37f733138b8c7121722e6a456c704dc4c5f928b28685de0d9fc475bc1f030",
+      "reasoningHash": "0xbff5966153469c58aeb2cf4591fee3102c6828d6f6b437a8b34cbf25bef718f2"
+    },
+    "approvalStatus": "Approved",
+    "requiredApprovals": 0,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.771Z"
+  },
+  "115": {
+    "txId": 115,
+    "transaction": {
+      "id": 115,
+      "date": "2026-08-16T11:00:00Z",
+      "amount": 12000,
+      "vendor": "Airtel Business",
+      "category": "Software Subscription",
+      "paymentMode": "Bank Transfer",
+      "description": "Dedicated leased line internet"
+    },
+    "riskScore": "Medium",
+    "flagType": "Timing-Anomaly",
+    "reasoning": "This transaction was recorded at off-hours (2026-08-16T11:00:00Z). While it may represent automated billing, off-hours disbursements outside normal business operations warrant secondary review.",
+    "vendorTrustScore": 95,
+    "preFlag": true,
+    "preFlagReason": "Transaction timestamp flag: processed on a Sunday.",
+    "onChain": {
+      "txHash": "0x2b402d169b4bcb639a9a6657cc61759794abb2c809a5031f77f2805caf7df97e",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0x2b402d169b4bcb639a9a6657cc61759794abb2c809a5031f77f2805caf7df97e",
+      "reasoningHash": "0x8723063853575c5605a9c3002f891a4a16f72d115282046fc39cbbfd968e04e9"
+    },
+    "approvalStatus": "Pending",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.784Z"
+  },
+  "116": {
+    "txId": 116,
+    "transaction": {
+      "id": 116,
+      "date": "2026-08-17T16:15:00Z",
+      "amount": 9500,
+      "vendor": "Zoom Video Communications",
+      "category": "Software Subscription",
+      "paymentMode": "Card",
+      "description": "Enterprise webinar license"
+    },
+    "riskScore": "Low",
+    "flagType": "Normal",
+    "reasoning": "The payment of ₹9,500 to Zoom Video Communications aligns with standard operating expenses for Software Subscription. No policy violations or anomalous patterns detected.",
+    "vendorTrustScore": 100,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0x5d18e561e04f871366eb91bd273b8e26f70b41495cc035e23ac19cbf1b853e7c",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0x5d18e561e04f871366eb91bd273b8e26f70b41495cc035e23ac19cbf1b853e7c",
+      "reasoningHash": "0x6a51319d8c48bb1691d96a5474c23f67bd048ac0bab3cd6546ba7ca89335fa04"
+    },
+    "approvalStatus": "Approved",
+    "requiredApprovals": 0,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.798Z"
+  },
+  "117": {
+    "txId": 117,
+    "transaction": {
+      "id": 117,
+      "date": "2026-08-18T10:45:00Z",
+      "amount": 22000,
+      "vendor": "BlueDart Express",
+      "category": "Vendor Payment",
+      "paymentMode": "UPI",
+      "description": "Monthly courier and shipping services"
+    },
+    "riskScore": "Low",
+    "flagType": "Normal",
+    "reasoning": "The payment of ₹22,000 to BlueDart Express aligns with standard operating expenses for Vendor Payment. No policy violations or anomalous patterns detected.",
+    "vendorTrustScore": 100,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0xe8a8ed874f34e9990852f60a41551f6228c5e8babbcfd188d66696ce17795a6a",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0xe8a8ed874f34e9990852f60a41551f6228c5e8babbcfd188d66696ce17795a6a",
+      "reasoningHash": "0x08ab65bb5ed3a4c528bd701f34dc6d19c6f999e91e5ededa276642e6c3a6c33a"
+    },
+    "approvalStatus": "Approved",
+    "requiredApprovals": 0,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.811Z"
+  },
+  "118": {
+    "txId": 118,
+    "transaction": {
+      "id": 118,
+      "date": "2026-08-19T11:00:00Z",
+      "amount": 82000,
+      "vendor": "Apex Tech Solutions",
+      "category": "Vendor Payment",
+      "paymentMode": "Bank Transfer",
+      "description": "Server hardware setup fee"
+    },
+    "riskScore": "High",
+    "flagType": "Duplicate",
+    "reasoning": "Identical payment of ₹82,000 to Apex Tech Solutions was submitted within 48 hours. This indicates potential duplicate billing or a double payment error that requires verification before release.",
+    "vendorTrustScore": 85,
+    "preFlag": true,
+    "preFlagReason": "Potential duplicate payment of ₹82,000 to Apex Tech Solutions within 48 hours (matches Tx #119).",
+    "onChain": {
+      "txHash": "0xb23cf902dd8b59919f565f2dfeb968a463dc704e5c97e3c61b706240ea679971",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0xb23cf902dd8b59919f565f2dfeb968a463dc704e5c97e3c61b706240ea679971",
+      "reasoningHash": "0xeadffe5254cbfef5f25482c9e13cadfc4fd923b732e353117c3976a63039ccd0"
+    },
+    "approvalStatus": "Pending",
+    "requiredApprovals": 2,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.824Z"
+  },
+  "119": {
+    "txId": 119,
+    "transaction": {
+      "id": 119,
+      "date": "2026-08-20T15:20:00Z",
+      "amount": 82000,
+      "vendor": "Apex Tech Solutions",
+      "category": "Vendor Payment",
+      "paymentMode": "Bank Transfer",
+      "description": "Server hardware maintenance fee"
+    },
+    "riskScore": "High",
+    "flagType": "Duplicate",
+    "reasoning": "Identical payment of ₹82,000 to Apex Tech Solutions was submitted within 48 hours. This indicates potential duplicate billing or a double payment error that requires verification before release.",
+    "vendorTrustScore": 70,
+    "preFlag": true,
+    "preFlagReason": "Potential duplicate payment of ₹82,000 to Apex Tech Solutions within 48 hours (matches Tx #118).",
+    "onChain": {
+      "txHash": "0x24948f2b21121d32bdfbaadd2e6807e8c9ff4ffd28d4662f9af0145c84c6ab6b",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0x24948f2b21121d32bdfbaadd2e6807e8c9ff4ffd28d4662f9af0145c84c6ab6b",
+      "reasoningHash": "0xeadffe5254cbfef5f25482c9e13cadfc4fd923b732e353117c3976a63039ccd0"
+    },
+    "approvalStatus": "Pending",
+    "requiredApprovals": 2,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.836Z"
+  },
+  "120": {
+    "txId": 120,
+    "transaction": {
+      "id": 120,
+      "date": "2026-08-21T09:30:00Z",
+      "amount": 5400,
+      "vendor": "Notion Labs",
+      "category": "Software Subscription",
+      "paymentMode": "Card",
+      "description": "Team documentation workspace"
+    },
+    "riskScore": "Low",
+    "flagType": "Normal",
+    "reasoning": "The payment of ₹5,400 to Notion Labs aligns with standard operating expenses for Software Subscription. No policy violations or anomalous patterns detected.",
+    "vendorTrustScore": 100,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0x96297ad7f86abee3b7307e301ff449f2d6c15e31617c4f3fe347eeffb1164a5a",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0x96297ad7f86abee3b7307e301ff449f2d6c15e31617c4f3fe347eeffb1164a5a",
+      "reasoningHash": "0x3cee8b24da820b1da517835cc28db8c882eeebeddc67ffb7994a284d5392f31e"
+    },
+    "approvalStatus": "Approved",
+    "requiredApprovals": 0,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.848Z"
+  },
+  "121": {
+    "txId": 121,
+    "transaction": {
+      "id": 121,
+      "date": "2026-08-21T14:15:00Z",
+      "amount": 18000,
+      "vendor": "ClearTax Corporate",
+      "category": "Software Subscription",
+      "paymentMode": "Bank Transfer",
+      "description": "GST filing platform subscription"
+    },
+    "riskScore": "Low",
+    "flagType": "Normal",
+    "reasoning": "The payment of ₹18,000 to ClearTax Corporate aligns with standard operating expenses for Software Subscription. No policy violations or anomalous patterns detected.",
+    "vendorTrustScore": 100,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0x5187569667ec94a71b621d46cfe584333dfe8f262e6b6d63f62b936bbcd2d778",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0x5187569667ec94a71b621d46cfe584333dfe8f262e6b6d63f62b936bbcd2d778",
+      "reasoningHash": "0xfe32dfdf6997a7afc7774f00ffc2f8a186e4bdddb0a8d12dba7bac33b2cc9498"
+    },
+    "approvalStatus": "Approved",
+    "requiredApprovals": 0,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.859Z"
+  },
+  "122": {
+    "txId": 122,
+    "transaction": {
+      "id": 122,
+      "date": "2026-08-22T16:00:00Z",
+      "amount": 150000,
+      "vendor": "ShadowCorp Logistics",
+      "category": "Miscellaneous",
+      "paymentMode": "Crypto Wallet",
+      "description": "Expedited freight & advisory service"
+    },
+    "riskScore": "High",
+    "flagType": "Unusual-Vendor",
+    "reasoning": "A substantial round payment of ₹1,50,000 was initiated via Crypto Wallet to an unfamiliar vendor (ShadowCorp Logistics). The lack of prior transaction history and generic invoice description poses elevated financial risk.",
+    "vendorTrustScore": 85,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0xf241f6db4ed41538cab919c4ce3a00f8d8d82d38d36fb595dd55be856936dee0",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0xf241f6db4ed41538cab919c4ce3a00f8d8d82d38d36fb595dd55be856936dee0",
+      "reasoningHash": "0xcc6164c1e5d204ddfdad9bf8998869bebdde67e339ef318f235ae8ef35a93242"
+    },
+    "approvalStatus": "Pending",
+    "requiredApprovals": 2,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.871Z"
+  },
+  "123": {
+    "txId": 123,
+    "transaction": {
+      "id": 123,
+      "date": "2026-08-22T17:45:00Z",
+      "amount": 4500,
+      "vendor": "Canva Pro",
+      "category": "Software Subscription",
+      "paymentMode": "Card",
+      "description": "Marketing brand asset subscription"
+    },
+    "riskScore": "Low",
+    "flagType": "Normal",
+    "reasoning": "The payment of ₹4,500 to Canva Pro aligns with standard operating expenses for Software Subscription. No policy violations or anomalous patterns detected.",
+    "vendorTrustScore": 100,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0xa28f7c0f5ebd7629fdd35999289222202ddb7e2790f4a6326f46429780b7785a",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0xa28f7c0f5ebd7629fdd35999289222202ddb7e2790f4a6326f46429780b7785a",
+      "reasoningHash": "0xb4281649f4025a2845517f0564a52ce7ca5a4813a313f500e779f77e3c92a24a"
+    },
+    "approvalStatus": "Approved",
+    "requiredApprovals": 0,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.884Z"
+  },
+  "124": {
+    "txId": 124,
+    "transaction": {
+      "id": 124,
+      "date": "2026-08-23T11:20:00Z",
+      "amount": 14000,
+      "vendor": "Taj Hotels",
+      "category": "Travel",
+      "paymentMode": "Card",
+      "description": "Executive lodging for investor visit"
+    },
+    "riskScore": "Medium",
+    "flagType": "Timing-Anomaly",
+    "reasoning": "This transaction was recorded at off-hours (2026-08-23T11:20:00Z). While it may represent automated billing, off-hours disbursements outside normal business operations warrant secondary review.",
+    "vendorTrustScore": 95,
+    "preFlag": true,
+    "preFlagReason": "Transaction timestamp flag: processed on a Sunday.",
+    "onChain": {
+      "txHash": "0x8c08c208f1c96dda9dc4415f68554c602ef5b93cf65d45a02f239c130d20fc56",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0x8c08c208f1c96dda9dc4415f68554c602ef5b93cf65d45a02f239c130d20fc56",
+      "reasoningHash": "0x81b3f09a8b425fd69ff99205220f78063510bb4e1c4523148c39939dd87d8311"
+    },
+    "approvalStatus": "Pending",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.897Z"
+  },
+  "125": {
+    "txId": 125,
+    "transaction": {
+      "id": 125,
+      "date": "2026-08-24T10:10:00Z",
+      "amount": 25000,
+      "vendor": "Zoho Books",
+      "category": "Software Subscription",
+      "paymentMode": "Bank Transfer",
+      "description": "Annual accounting suite plan"
+    },
+    "riskScore": "Low",
+    "flagType": "Normal",
+    "reasoning": "The payment of ₹25,000 to Zoho Books aligns with standard operating expenses for Software Subscription. No policy violations or anomalous patterns detected.",
+    "vendorTrustScore": 100,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0xa8af42729d7e3779a0e32846d22b040a16476cd2913308b0bbb62d6dc5ebd3b1",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0xa8af42729d7e3779a0e32846d22b040a16476cd2913308b0bbb62d6dc5ebd3b1",
+      "reasoningHash": "0x6e37d6c1705cdf2cc6c8bc11406cacf7800df43d9b1396d3dadfd652ad6175eb"
+    },
+    "approvalStatus": "Approved",
+    "requiredApprovals": 0,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.909Z"
+  },
+  "126": {
+    "txId": 126,
+    "transaction": {
+      "id": 126,
+      "date": "2026-08-24T15:30:00Z",
+      "amount": 8900,
+      "vendor": "LinkedIn Talent Solutions",
+      "category": "Vendor Payment",
+      "paymentMode": "Card",
+      "description": "Recruiting candidate posting slots"
+    },
+    "riskScore": "Low",
+    "flagType": "Normal",
+    "reasoning": "The payment of ₹8,900 to LinkedIn Talent Solutions aligns with standard operating expenses for Vendor Payment. No policy violations or anomalous patterns detected.",
+    "vendorTrustScore": 100,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0x354ea79dded962ea954a6d27850360d8aad49a16eaccbc922117b6f22bfba20b",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0x354ea79dded962ea954a6d27850360d8aad49a16eaccbc922117b6f22bfba20b",
+      "reasoningHash": "0x1bfd2fd6bceaedceb168a6a88ae88fa19c4d89e9eb17e19c6d62a6d324adab56"
+    },
+    "approvalStatus": "Approved",
+    "requiredApprovals": 0,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.936Z"
+  },
+  "127": {
+    "txId": 127,
+    "transaction": {
+      "id": 127,
+      "date": "2026-08-25T11:45:00Z",
+      "amount": 49250,
+      "vendor": "Zenith Consulting",
+      "category": "Vendor Payment",
+      "paymentMode": "Bank Transfer",
+      "description": "Advisory fee installment"
+    },
+    "riskScore": "High",
+    "flagType": "Threshold-Evasion",
+    "reasoning": "The payment amount of ₹49,250 is strategically structured just below the ₹50,000 formal approval limit. This pattern frequently indicates threshold evasion to bypass executive sign-off.",
+    "vendorTrustScore": 85,
+    "preFlag": true,
+    "preFlagReason": "Amount ₹49,250 is within 5% below the ₹50,000 manager approval threshold.",
+    "onChain": {
+      "txHash": "0x66d7368b6ce34882ac01ff582551d975dd93ee0e0c43426e958b4063964e84e7",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0x66d7368b6ce34882ac01ff582551d975dd93ee0e0c43426e958b4063964e84e7",
+      "reasoningHash": "0xbb5bc1a2514797a23cc54cb7acc4382779fd7aabf2c628cacfe9e5cb18eb896e"
+    },
+    "approvalStatus": "Pending",
+    "requiredApprovals": 2,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.949Z"
+  },
+  "128": {
+    "txId": 128,
+    "transaction": {
+      "id": 128,
+      "date": "2026-08-25T14:10:00Z",
+      "amount": 3800,
+      "vendor": "Postman API Platform",
+      "category": "Software Subscription",
+      "paymentMode": "Card",
+      "description": "API workspace developer seats"
+    },
+    "riskScore": "Low",
+    "flagType": "Normal",
+    "reasoning": "The payment of ₹3,800 to Postman API Platform aligns with standard operating expenses for Software Subscription. No policy violations or anomalous patterns detected.",
+    "vendorTrustScore": 100,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0x6a0d737628173f68848e813c54e1b236d974edc91c124b00ab2c3683fb3e2d91",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0x6a0d737628173f68848e813c54e1b236d974edc91c124b00ab2c3683fb3e2d91",
+      "reasoningHash": "0x8082a931a2d0ce2bfa25858d6fed4881dfc037031e16b1046c2061c6d285a73b"
+    },
+    "approvalStatus": "Approved",
+    "requiredApprovals": 0,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.962Z"
+  },
+  "129": {
+    "txId": 129,
+    "transaction": {
+      "id": 129,
+      "date": "2026-08-26T09:50:00Z",
+      "amount": 11500,
+      "vendor": "Staples Business Depot",
+      "category": "Miscellaneous",
+      "paymentMode": "UPI",
+      "description": "Stationery and printer toner supplies"
+    },
+    "riskScore": "Low",
+    "flagType": "Normal",
+    "reasoning": "The payment of ₹11,500 to Staples Business Depot aligns with standard operating expenses for Miscellaneous. No policy violations or anomalous patterns detected.",
+    "vendorTrustScore": 100,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0xc87c5c00c2f6cf81e68a9c575c5efc4a8516c36489949eb5b91fd7506b96db3b",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0xc87c5c00c2f6cf81e68a9c575c5efc4a8516c36489949eb5b91fd7506b96db3b",
+      "reasoningHash": "0x05a2318aad61ce298589f5ff7ae73d266474841dfff4b4de49c43c9f58fbb9be"
+    },
+    "approvalStatus": "Approved",
+    "requiredApprovals": 0,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.975Z"
+  },
+  "130": {
+    "txId": 130,
+    "transaction": {
+      "id": 130,
+      "date": "2026-08-26T16:20:00Z",
+      "amount": 65000,
+      "vendor": "Dell Financial Services",
+      "category": "Vendor Payment",
+      "paymentMode": "Bank Transfer",
+      "description": "Developer laptop lease installment"
+    },
+    "riskScore": "Low",
+    "flagType": "Normal",
+    "reasoning": "The payment of ₹65,000 to Dell Financial Services aligns with standard operating expenses for Vendor Payment. No policy violations or anomalous patterns detected.",
+    "vendorTrustScore": 100,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0xc09dacfa89d2e8c91ef4a37412df7922ee4cf3f0872e1229ac704006dfcf5719",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0xc09dacfa89d2e8c91ef4a37412df7922ee4cf3f0872e1229ac704006dfcf5719",
+      "reasoningHash": "0x30c70d8e21286a2ab629aa6141a6ac8c7bcd478578b8c3b5b2f9b7bbd167a388"
+    },
+    "approvalStatus": "Approved",
+    "requiredApprovals": 0,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:05.988Z"
+  },
+  "131": {
+    "txId": 131,
+    "transaction": {
+      "id": 131,
+      "date": "2026-08-27T10:00:00Z",
+      "amount": 7200,
+      "vendor": "Datadog Cloud Monitoring",
+      "category": "Software Subscription",
+      "paymentMode": "Card",
+      "description": "Infrastructure APM & log analytics"
+    },
+    "riskScore": "Low",
+    "flagType": "Normal",
+    "reasoning": "The payment of ₹7,200 to Datadog Cloud Monitoring aligns with standard operating expenses for Software Subscription. No policy violations or anomalous patterns detected.",
+    "vendorTrustScore": 100,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0xc3d951fa8b6d9ba0fd768a2ba33741b63905dda4cb4b96891bdd4f79b51dbfbb",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0xc3d951fa8b6d9ba0fd768a2ba33741b63905dda4cb4b96891bdd4f79b51dbfbb",
+      "reasoningHash": "0xc33b6a5557ce215c7e7aa170e7a7b3f90a49a1acc81e9ca1d1b0a3dd8ec54b99"
+    },
+    "approvalStatus": "Approved",
+    "requiredApprovals": 0,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:06.000Z"
+  },
+  "132": {
+    "txId": 132,
+    "transaction": {
+      "id": 132,
+      "date": "2026-08-27T14:30:00Z",
+      "amount": 19000,
+      "vendor": "HubSpot Marketing",
+      "category": "Software Subscription",
+      "paymentMode": "Card",
+      "description": "CRM and inbound marketing hub"
+    },
+    "riskScore": "Low",
+    "flagType": "Normal",
+    "reasoning": "The payment of ₹19,000 to HubSpot Marketing aligns with standard operating expenses for Software Subscription. No policy violations or anomalous patterns detected.",
+    "vendorTrustScore": 100,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0xa9415119199d48c35536a95827394c210dee79a023ec529533ccdbe39c80a255",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0xa9415119199d48c35536a95827394c210dee79a023ec529533ccdbe39c80a255",
+      "reasoningHash": "0x733bf5b6ff68c3519ba3c73424dcb32b532963abe47fca500d9aeb04138c91da"
+    },
+    "approvalStatus": "Approved",
+    "requiredApprovals": 0,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:06.012Z"
+  },
+  "133": {
+    "txId": 133,
+    "transaction": {
+      "id": 133,
+      "date": "2026-08-28T12:00:00Z",
+      "amount": 2800,
+      "vendor": "1Password Business",
+      "category": "Software Subscription",
+      "paymentMode": "Card",
+      "description": "Team password vault security"
+    },
+    "riskScore": "Low",
+    "flagType": "Normal",
+    "reasoning": "The payment of ₹2,800 to 1Password Business aligns with standard operating expenses for Software Subscription. No policy violations or anomalous patterns detected.",
+    "vendorTrustScore": 100,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0x4b77e65c3b61912b12096f05c9fecbc18b12810824eef8025cebbee56d857fac",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0x4b77e65c3b61912b12096f05c9fecbc18b12810824eef8025cebbee56d857fac",
+      "reasoningHash": "0x72a56591d2100cae6af0922603317dbbc93e70a5db330c89125ae66bfc0a4079"
+    },
+    "approvalStatus": "Approved",
+    "requiredApprovals": 0,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:06.025Z"
+  },
+  "134": {
+    "txId": 134,
+    "transaction": {
+      "id": 134,
+      "date": "2026-08-30T02:15:00Z",
+      "amount": 35000,
+      "vendor": "Nexus Digital",
+      "category": "Software Subscription",
+      "paymentMode": "Crypto Wallet",
+      "description": "Emergency server migration charge"
+    },
+    "riskScore": "Medium",
+    "flagType": "Timing-Anomaly",
+    "reasoning": "This transaction was recorded at off-hours (2026-08-30T02:15:00Z). While it may represent automated billing, off-hours disbursements outside normal business operations warrant secondary review.",
+    "vendorTrustScore": 95,
+    "preFlag": true,
+    "preFlagReason": "Transaction timestamp flag: processed on a Sunday.",
+    "onChain": {
+      "txHash": "0xa4e6401a3bfc9063d3b83423313dd10612dac4ce98e16a0797d4f796fff990bf",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0xa4e6401a3bfc9063d3b83423313dd10612dac4ce98e16a0797d4f796fff990bf",
+      "reasoningHash": "0x08938c12164f6bfd5e87c857c34fa92991ff4f3b625b7dbcb12600e677742b4c"
+    },
+    "approvalStatus": "Pending",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:06.038Z"
+  },
+  "135": {
+    "txId": 135,
+    "transaction": {
+      "id": 135,
+      "date": "2026-08-30T10:30:00Z",
+      "amount": 16500,
+      "vendor": "IndiGo Airlines",
+      "category": "Travel",
+      "paymentMode": "Card",
+      "description": "Sales pitch trip to Bengaluru"
+    },
+    "riskScore": "Medium",
+    "flagType": "Timing-Anomaly",
+    "reasoning": "This transaction was recorded at off-hours (2026-08-30T10:30:00Z). While it may represent automated billing, off-hours disbursements outside normal business operations warrant secondary review.",
+    "vendorTrustScore": 95,
+    "preFlag": true,
+    "preFlagReason": "Transaction timestamp flag: processed on a Sunday.",
+    "onChain": {
+      "txHash": "0xd7a5cf845c578f39859cd30bf824b4177cc3f9af73aa96dfb13fb15c270c4319",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0xd7a5cf845c578f39859cd30bf824b4177cc3f9af73aa96dfb13fb15c270c4319",
+      "reasoningHash": "0xfb912db97a33fb65ffaa87042727b222d39c8280e8ceb1ea7ca526ddfea1c22c"
+    },
+    "approvalStatus": "Pending",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:06.051Z"
+  },
+  "136": {
+    "txId": 136,
+    "transaction": {
+      "id": 136,
+      "date": "2026-08-28T10:00:00Z",
+      "amount": 28500,
+      "vendor": "Horizon Media Group",
+      "category": "Vendor Payment",
+      "paymentMode": "Bank Transfer",
+      "description": "Digital campaign phase 1 disbursement"
+    },
+    "riskScore": "High",
+    "flagType": "Structuring",
+    "reasoning": "Multiple payments to Horizon Media Group within 7 days total ₹28,500+ and exceed 1.5x approval limits. Structuring payments into smaller installments to bypass manager sign-off is a serious policy violation.",
+    "vendorTrustScore": 85,
+    "preFlag": true,
+    "preFlagReason": "Structuring/Smurfing pattern detected: 3 payments to Horizon Media Group within 7 days total ₹85,000 (exceeding 1.5x approval threshold) while each individual payment stays under ₹50,000.",
+    "onChain": {
+      "txHash": "0x2aaf9304533530fa05fc62ca47ea5293885d95b92f1d5a87697e03bcb6e4ab83",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0x2aaf9304533530fa05fc62ca47ea5293885d95b92f1d5a87697e03bcb6e4ab83",
+      "reasoningHash": "0xce3e6dc2c6216915db379a599c803f6f656f3d4e1a7c027b075fb1df659fa107"
+    },
+    "approvalStatus": "Pending",
+    "requiredApprovals": 2,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:06.064Z"
+  },
+  "137": {
+    "txId": 137,
+    "transaction": {
+      "id": 137,
+      "date": "2026-08-29T11:30:00Z",
+      "amount": 29000,
+      "vendor": "Horizon Media Group",
+      "category": "Vendor Payment",
+      "paymentMode": "Bank Transfer",
+      "description": "Digital campaign phase 2 disbursement"
+    },
+    "riskScore": "High",
+    "flagType": "Structuring",
+    "reasoning": "Multiple payments to Horizon Media Group within 7 days total ₹29,000+ and exceed 1.5x approval limits. Structuring payments into smaller installments to bypass manager sign-off is a serious policy violation.",
+    "vendorTrustScore": 70,
+    "preFlag": true,
+    "preFlagReason": "Structuring/Smurfing pattern detected: 3 payments to Horizon Media Group within 7 days total ₹85,000 (exceeding 1.5x approval threshold) while each individual payment stays under ₹50,000.",
+    "onChain": {
+      "txHash": "0x76c42d804508cc6d89b452b70a1df830b04134aca3083b521d73986ea564ed69",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0x76c42d804508cc6d89b452b70a1df830b04134aca3083b521d73986ea564ed69",
+      "reasoningHash": "0xe7b6a6abe5c5461c184f72ec95b5310d89984ca9fb8803f822211acab131e242"
+    },
+    "approvalStatus": "Pending",
+    "requiredApprovals": 2,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:06.077Z"
+  },
+  "138": {
+    "txId": 138,
+    "transaction": {
+      "id": 138,
+      "date": "2026-08-30T14:15:00Z",
+      "amount": 27500,
+      "vendor": "Horizon Media Group",
+      "category": "Vendor Payment",
+      "paymentMode": "Bank Transfer",
+      "description": "Digital campaign phase 3 disbursement"
+    },
+    "riskScore": "High",
+    "flagType": "Structuring",
+    "reasoning": "Multiple payments to Horizon Media Group within 7 days total ₹27,500+ and exceed 1.5x approval limits. Structuring payments into smaller installments to bypass manager sign-off is a serious policy violation.",
+    "vendorTrustScore": 55,
+    "preFlag": true,
+    "preFlagReason": "Structuring/Smurfing pattern detected: 3 payments to Horizon Media Group within 7 days total ₹85,000 (exceeding 1.5x approval threshold) while each individual payment stays under ₹50,000. Transaction timestamp flag: processed on a Sunday.",
+    "onChain": {
+      "txHash": "0xdea22473c1440bd70ec15b7492b699f7ad0cc677462cf43260eff3ab6cc5a954",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0xdea22473c1440bd70ec15b7492b699f7ad0cc677462cf43260eff3ab6cc5a954",
+      "reasoningHash": "0x5c3bc74a303ac77798cf2f1a03863cd3dfc58c5bf0add63f49661f0283a4d18d"
+    },
+    "approvalStatus": "Pending",
+    "requiredApprovals": 2,
+    "currentApprovals": 1,
+    "updatedAt": "2026-09-04T04:49:46.226Z",
+    "approvers": [
+      "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"
+    ]
+  },
+  "139": {
+    "txId": 139,
+    "transaction": {
+      "id": 139,
+      "date": "2026-08-31T16:30:00Z",
+      "amount": 2100,
+      "vendor": "Zomato Gold Corporate",
+      "category": "Miscellaneous",
+      "paymentMode": "UPI",
+      "description": "Friday evening team snacks"
+    },
+    "riskScore": "Low",
+    "flagType": "Normal",
+    "reasoning": "The payment of ₹2,100 to Zomato Gold Corporate aligns with standard operating expenses for Miscellaneous. No policy violations or anomalous patterns detected.",
+    "vendorTrustScore": 100,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0x0eae1d07f33b246704662644f7a57d092ac366804d859b84aa4586611a842d63",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0x0eae1d07f33b246704662644f7a57d092ac366804d859b84aa4586611a842d63",
+      "reasoningHash": "0xcbe2f26cb47bdd123ca2d5d6c6e4396f7346056985bbb673d9b316cbaf87dc61"
+    },
+    "approvalStatus": "Approved",
+    "requiredApprovals": 0,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:06.101Z"
+  },
+  "140": {
+    "txId": 140,
+    "transaction": {
+      "id": 140,
+      "date": "2026-08-31T18:00:00Z",
+      "amount": 50000,
+      "vendor": "HDFC Bank Facility",
+      "category": "Vendor Payment",
+      "paymentMode": "Bank Transfer",
+      "description": "Quarterly locker and credit facility charge"
+    },
+    "riskScore": "Low",
+    "flagType": "Normal",
+    "reasoning": "The payment of ₹50,000 to HDFC Bank Facility aligns with standard operating expenses for Vendor Payment. No policy violations or anomalous patterns detected.",
+    "vendorTrustScore": 100,
+    "preFlag": false,
+    "preFlagReason": null,
+    "onChain": {
+      "txHash": "0xaba102b668f7f344a7469bc2d0ff076e141dca41092d71f2bdd14035944f2bd9",
+      "explorerUrl": "https://amoy.polygonscan.com/tx/0xaba102b668f7f344a7469bc2d0ff076e141dca41092d71f2bdd14035944f2bd9",
+      "reasoningHash": "0x12074be7e03403a2b8dd82af89aaa0cae2186a01fe935ffee6b2bd5e916740ef"
+    },
+    "approvalStatus": "Approved",
+    "requiredApprovals": 0,
+    "currentApprovals": 0,
+    "updatedAt": "2026-09-04T04:49:06.113Z"
+  }
+}

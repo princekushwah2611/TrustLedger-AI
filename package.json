@@ -1,0 +1,24 @@
+{
+  "name": "trustledger-ai",
+  "version": "1.0.0",
+  "description": "An AI-Powered Financial Controller Secured by Blockchain",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm run dev"
+  },
+  "keywords": [],
+  "author": "Prince Singh Kushwah",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.4"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1",
+    "dotenv": "^16.4.1",
+    "ethers": "^6.11.0"
+  }
+}
